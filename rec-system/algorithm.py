@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 from collections import Counter
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 
 BENEFITS_MAP = {
@@ -37,7 +39,6 @@ def get_top_ingredients(products_df, x):
     """
     # List of inactive and commonly used ingredients - exclude these
     inactive_ingredients = ["Water", "Glycerin", "Phenoxyethanol","Xanthan Gum","Alcohol Denat", "Carbomer"]
-    
     ingredients_list = products_df['Ingredients'].str.split(',').tolist()
 
     # Flatten the list of lists
@@ -82,7 +83,7 @@ def search_for_ingredient(products_df, ingredient_names):
 
 
 def main():
-    products_df = pd.read_csv('/Users/lillynguyen/Documents/GitHub/t9hacks2025/resources/data/cosmetics.csv')
+    products_df = pd.read_csv('../resources/data/cosmetics.csv')
 
     skin_type = input("Enter your skin type (Dry, Oily, Combination, Normal): ")
     concerns = input("Enter your skin concerns (comma-separated): ").split(',')
@@ -94,7 +95,7 @@ def main():
     budget = input("")
 
     print("Generating recommendations...\n")
-    print('--------------------------------------')
+    print('------------------------------------------------------------------------------------------------------------')
     
     scores = []
 
