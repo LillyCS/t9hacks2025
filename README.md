@@ -30,13 +30,13 @@ I use Sephora skincare products listed in this Kaggle dataset [https://www.kaggl
 - Web Development: I struggled connecting my algorithm with the UI until I did some more research and found Streamlit, which was a really cool and fast way to build apps using a Python framework. The documentation is well-written, so I was able to integrate it within the 24 hours.
 - Ingredient Analysis: I conducted A LOT of research into what active ingredients are useful for specific skin concerns like hyperpigmentation and anti-aging. I used this knowledge and research to create my ingredients-benefits mapping system.
 
-## Accomplishments that we're proud of
+## Accomplishments that I'm proud of
 1. I'm really proud of myself for creating a functional application that works! This is a topic I'm passionate about. I felt that I proved to myself that I could pull off an idea from start to finish, while making smart decisions about pivoting and changing courses as needed in such a short period of time.
 2. I learned a new web development tool, Streamlit, in 24-hours and was successful in integrating it into my own website. The user-interface is simple, yet effective and user-friendly.
 3. I tried to use best coding practices along the way to keep everything organized and modular.
 4. I honed in on my data analysis and programming skills to develop a simple scoring algorithm and logic on the back-end.
 
-## What we learned
+## What I learned
 - It's ok to start over and change directions
 - Read documentation and Google everything
 - Plan out your time wisely and be realistic
