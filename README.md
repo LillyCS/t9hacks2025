@@ -1,6 +1,10 @@
 # t9hacks2025
 Lilly Nguyen's submission for the T9Hacks Health-a-thon 2025
 
+# To Run
+Navigate to the rec-system directory and run
+`streamlit run app.py`
+
 ## Inspiration
 My journey into skincare started when I was a child, watching my mom use various skincare products on her face. I was always curious about what each product was, what it does, and when I could start using it. 
 
